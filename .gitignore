@@ -1,0 +1,111 @@
+# ==================================================
+# Yarn (Berry)
+# ==================================================
+
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.yarnrc.yml
+
+
+# ==================================================
+# Dependencies
+# ==================================================
+
+node_modules/
+.pnp/
+.pnp.*
+
+
+# ==================================================
+# Build output
+# ==================================================
+
+dist/
+dist-ssr/
+build/
+out/
+coverage/
+*.local
+
+
+# ==================================================
+# Logs
+# ==================================================
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+
+# ==================================================
+# Environment files
+# ==================================================
+
+.env
+.env.local
+.env.*.local
+
+
+# ==================================================
+# OS generated files
+# ==================================================
+
+.DS_Store
+.DS_Store?
+Thumbs.db
+desktop.ini
+
+
+# ==================================================
+# Editor & IDE files
+# ==================================================
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# ==================================================
+# Temporary & cache files
+# ==================================================
+
+*.tmp
+*.temp
+*.cache
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+
+
+# ==================================================
+# Package manager lockfiles (non-Yarn)
+# ==================================================
+
+package-lock.json
+pnpm-lock.yaml
+
+
+# ==================================================
+# Miscellaneous
+# ==================================================
+
+*.bak
+*.orig
+*.old
