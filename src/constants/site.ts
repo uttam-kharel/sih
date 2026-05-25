@@ -4,9 +4,9 @@ export const SITE_CONFIG: SiteConfig = {
   name: 'Shubham International Hospital',
   tagline: 'Your Health, Our Priority',
   description: 'World-class healthcare — coming soon.',
-  address: '123 Healthcare Avenue, Medical District, City',
-  phone: '+1 (555) 123-4567',
-  email: 'contact@shubhamhospital.com',
+//   address: '123 Healthcare Avenue, Medical District, City',
+//   phone: '+1 (555) 123-4567',
+//   email: 'contact@shubhamhospital.com',
 }
 
 export const STATS: Stat[] = [
