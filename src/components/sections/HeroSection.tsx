@@ -7,7 +7,7 @@ export function HeroSection() {
             <div className="mb-4 flex justify-center">
                 <div className="relative">
                     <div className="absolute inset-0 bg-primary-200/40 blur-3xl rounded-full scale-150" aria-hidden="true" />
-                    <img src={heroIcon} alt="Hospital Logo" className="w-150 h-60 relative" />
+                    <img src={heroIcon} alt="Shubham International Hospital — World-Class Healthcare" className="w-150 h-60 relative" />
                 </div>
             </div>
 
@@ -15,9 +15,9 @@ export function HeroSection() {
                 {SITE_CONFIG.name}
             </h1>
 
-            <p className="text-sm sm:text-base text-primary-600 font-medium mb-4">
+            <h2 className="text-sm sm:text-base text-primary-600 font-medium mb-4">
                 {SITE_CONFIG.tagline}
-            </p>
+            </h2>
 
             <div
                 className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-primary-600 to-primary-500 text-white rounded-full text-sm font-semibold shadow-lg shadow-primary-200/60 border border-white/10"
