@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 460" width="600" height="460" role="img">
+  <defs><linearGradient id="ga2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1B5E63"></stop><stop offset="1" stop-color="#0E3349"></stop></linearGradient></defs>
+  <rect width="600" height="460" fill="url(#ga2)"></rect>
+  <g opacity="0.5" stroke="#6FD6E2" stroke-width="2.5" fill="none">
+  
+  
+  <path d="M180 300 q120 -160 240 0"></path><circle cx="300" cy="180" r="40"></circle>
+  </g></svg>

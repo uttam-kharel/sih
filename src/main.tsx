@@ -1,16 +1,24 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import '@styles/global.css'
-import App from './App'
+import { BrowserRouter } from 'react-router-dom'
+import { HelmetProvider } from 'react-helmet-async'
+import { SiteProvider } from '@contexts/SiteContext'
+import { AdminProvider } from '@contexts/AdminContext'
+import { ScrollToTop } from '@components/ScrollToTop'
+import App from './App.tsx'
+import './index.css'
 
-const root = document.getElementById('root')
-
-if (!root) {
-  throw new Error('Root element #root not found in the document.')
-}
-
-createRoot(root).render(
+createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <HelmetProvider>
+      <BrowserRouter>
+        <ScrollToTop />
+        <SiteProvider>
+          <AdminProvider>
+            <App />
+          </AdminProvider>
+        </SiteProvider>
+      </BrowserRouter>
+    </HelmetProvider>
   </StrictMode>,
 )

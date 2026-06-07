@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" width="440" height="440" role="img">
+<rect width="440" height="440" fill="#1B5E63"></rect>
+<g stroke="#A9E6EE" stroke-width="3" fill="none" opacity="0.95">
+<rect x="120" y="150" width="200" height="200"></rect>
+<path d="M110 150 L220 90 L330 150"></path>
+<rect x="155" y="200" width="36" height="50"></rect><rect x="205" y="200" width="36" height="50"></rect><rect x="255" y="200" width="36" height="50"></rect>
+<rect x="200" y="290" width="44" height="60"></rect>
+<path d="M220 60 v24 M210 72 h20"></path></g>
+<text x="220" y="392" text-anchor="middle" font-family="Sora,sans-serif" font-size="22" font-weight="700" fill="#fff" letter-spacing="3">HERITAGE</text>
+<text x="220" y="416" text-anchor="middle" font-family="Plus Jakarta Sans,sans-serif" font-size="12" fill="#A9E6EE" letter-spacing="4">SINCE 1998</text></svg>
