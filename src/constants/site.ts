@@ -10,7 +10,7 @@ export const SITE_CONFIG: SiteConfig = {
 }
 
 export const STATS: Stat[] = [
-  { value: '24/7', label: 'Emergency Care' },
-  { value: '24/7', label: 'Pharmacy' },
-  { value: 'Modern', label: 'Facilities' },
+  { id: 'stat-1', value: '24/7', label: 'Emergency Care' },
+  { id: 'stat-2', value: '24/7', label: 'Pharmacy' },
+  { id: 'stat-3', value: 'Modern', label: 'Facilities' },
 ]

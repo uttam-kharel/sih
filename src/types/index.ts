@@ -1,3 +1,10 @@
+export interface SiteConfig {
+  name: string
+  tagline: string
+  description: string
+  address?: string
+}
+
 export interface SiteInfo {
   name: string
   tagline: string
